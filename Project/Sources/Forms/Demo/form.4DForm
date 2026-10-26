@@ -1,0 +1,352 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad",
+		"onTimer",
+		"onClick",
+		"onUnload"
+	],
+	"windowTitle": "Syllabe manquante",
+	"destination": "detailScreen",
+	"pages": [
+		{},
+		{
+			"objects": {
+				"stage": {
+					"type": "rectangle",
+					"left": 0,
+					"top": 0,
+					"width": 380,
+					"height": 580,
+					"fill": "#EEF1F4",
+					"stroke": "#EEF1F4"
+				},
+				"card": {
+					"type": "rectangle",
+					"left": 40,
+					"top": 64,
+					"width": 300,
+					"height": 500,
+					"fill": "#5B9BD5",
+					"stroke": "#5B9BD5",
+					"borderRadius": 24
+				},
+				"speaker": {
+					"type": "text",
+					"text": "\ud83d\udd0a",
+					"left": 56,
+					"top": 80,
+					"width": 40,
+					"height": 30,
+					"fontSize": 20,
+					"stroke": "#FFFFFF",
+					"textAlign": "left",
+					"verticalAlign": "center",
+					"fontWeight": "bold"
+				},
+				"btnSpeaker": {
+					"type": "button",
+					"text": "",
+					"left": 52,
+					"top": 76,
+					"width": 44,
+					"height": 34,
+					"stroke": "#000000",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"score": {
+					"type": "text",
+					"text": "0",
+					"left": 270,
+					"top": 76,
+					"width": 60,
+					"height": 34,
+					"fontSize": 28,
+					"stroke": "#FFFFFF",
+					"textAlign": "right",
+					"verticalAlign": "center",
+					"fontWeight": "bold"
+				},
+				"prompt": {
+					"type": "text",
+					"text": "Quelle syllabe manque ?",
+					"left": 60,
+					"top": 116,
+					"width": 260,
+					"height": 26,
+					"fontSize": 18,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"verticalAlign": "center",
+					"fontWeight": "bold"
+				},
+				"emoji": {
+					"type": "text",
+					"text": "\ud83d\udc34",
+					"left": 130,
+					"top": 148,
+					"width": 120,
+					"height": 110,
+					"fontSize": 78,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"verticalAlign": "center",
+					"fontWeight": "bold"
+				},
+				"slot_1": {
+					"type": "rectangle",
+					"left": 30,
+					"top": 296,
+					"width": 60,
+					"height": 48,
+					"fill": "#FFFFFF",
+					"stroke": "#FFFFFF",
+					"borderRadius": 12
+				},
+				"slotLbl_1": {
+					"type": "text",
+					"text": "",
+					"left": 30,
+					"top": 296,
+					"width": 60,
+					"height": 48,
+					"fontSize": 26,
+					"stroke": "#344054",
+					"textAlign": "center",
+					"verticalAlign": "center",
+					"fontWeight": "bold"
+				},
+				"slot_2": {
+					"type": "rectangle",
+					"left": 98,
+					"top": 296,
+					"width": 60,
+					"height": 48,
+					"fill": "#FFFFFF",
+					"stroke": "#FFFFFF",
+					"borderRadius": 12
+				},
+				"slotLbl_2": {
+					"type": "text",
+					"text": "",
+					"left": 98,
+					"top": 296,
+					"width": 60,
+					"height": 48,
+					"fontSize": 26,
+					"stroke": "#344054",
+					"textAlign": "center",
+					"verticalAlign": "center",
+					"fontWeight": "bold"
+				},
+				"slot_3": {
+					"type": "rectangle",
+					"left": 166,
+					"top": 296,
+					"width": 60,
+					"height": 48,
+					"fill": "#FFFFFF",
+					"stroke": "#FFFFFF",
+					"borderRadius": 12
+				},
+				"slotLbl_3": {
+					"type": "text",
+					"text": "",
+					"left": 166,
+					"top": 296,
+					"width": 60,
+					"height": 48,
+					"fontSize": 26,
+					"stroke": "#344054",
+					"textAlign": "center",
+					"verticalAlign": "center",
+					"fontWeight": "bold"
+				},
+				"slot_4": {
+					"type": "rectangle",
+					"left": 234,
+					"top": 296,
+					"width": 60,
+					"height": 48,
+					"fill": "#FFFFFF",
+					"stroke": "#FFFFFF",
+					"borderRadius": 12
+				},
+				"slotLbl_4": {
+					"type": "text",
+					"text": "",
+					"left": 234,
+					"top": 296,
+					"width": 60,
+					"height": 48,
+					"fontSize": 26,
+					"stroke": "#344054",
+					"textAlign": "center",
+					"verticalAlign": "center",
+					"fontWeight": "bold"
+				},
+				"truth": {
+					"type": "text",
+					"text": "",
+					"left": 60,
+					"top": 364,
+					"width": 260,
+					"height": 24,
+					"fontSize": 20,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"verticalAlign": "center"
+				},
+				"glyph": {
+					"type": "text",
+					"text": "",
+					"left": 145,
+					"top": 470,
+					"width": 90,
+					"height": 50,
+					"fontSize": 50,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"verticalAlign": "center",
+					"fontWeight": "bold"
+				},
+				"chPad_1": {
+					"type": "rectangle",
+					"left": 49,
+					"top": 394,
+					"width": 86,
+					"height": 56,
+					"fill": "#FFFFFF",
+					"stroke": "#FFFFFF",
+					"borderRadius": 14
+				},
+				"chLbl_1": {
+					"type": "text",
+					"text": "",
+					"left": 49,
+					"top": 394,
+					"width": 86,
+					"height": 56,
+					"fontSize": 30,
+					"stroke": "#344054",
+					"textAlign": "center",
+					"verticalAlign": "center",
+					"fontWeight": "bold"
+				},
+				"chPad_2": {
+					"type": "rectangle",
+					"left": 147,
+					"top": 394,
+					"width": 86,
+					"height": 56,
+					"fill": "#FFFFFF",
+					"stroke": "#FFFFFF",
+					"borderRadius": 14
+				},
+				"chLbl_2": {
+					"type": "text",
+					"text": "",
+					"left": 147,
+					"top": 394,
+					"width": 86,
+					"height": 56,
+					"fontSize": 30,
+					"stroke": "#344054",
+					"textAlign": "center",
+					"verticalAlign": "center",
+					"fontWeight": "bold"
+				},
+				"chPad_3": {
+					"type": "rectangle",
+					"left": 245,
+					"top": 394,
+					"width": 86,
+					"height": 56,
+					"fill": "#FFFFFF",
+					"stroke": "#FFFFFF",
+					"borderRadius": 14
+				},
+				"chLbl_3": {
+					"type": "text",
+					"text": "",
+					"left": 245,
+					"top": 394,
+					"width": 86,
+					"height": 56,
+					"fontSize": 30,
+					"stroke": "#344054",
+					"textAlign": "center",
+					"verticalAlign": "center",
+					"fontWeight": "bold"
+				},
+				"chBtn_1": {
+					"type": "button",
+					"text": "",
+					"left": 49,
+					"top": 394,
+					"width": 86,
+					"height": 56,
+					"stroke": "#000000",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"chBtn_2": {
+					"type": "button",
+					"text": "",
+					"left": 147,
+					"top": 394,
+					"width": 86,
+					"height": 56,
+					"stroke": "#000000",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"chBtn_3": {
+					"type": "button",
+					"text": "",
+					"left": 245,
+					"top": 394,
+					"width": 86,
+					"height": 56,
+					"stroke": "#000000",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"tick": {
+					"type": "rectangle",
+					"left": 0,
+					"top": -10,
+					"width": 1,
+					"height": 1,
+					"fill": "transparent",
+					"stroke": "transparent"
+				}
+			}
+		}
+	],
+	"method": "method.4dm"
+}
