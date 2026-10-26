@@ -4,6 +4,8 @@
 syllable blanked (che · **?**); tap the missing syllable among the choices. Built on
 [Hero](https://github.com/mesopelagique/Hero) (`cs.hero`).
 
+<p align="center"><img src="Documentation/missingsyllable.gif" width="320" alt="MissingSyllable — a word with one syllable shown as ?, tap the missing syllable" /></p>
+
 ## Play
 
 Open the project — `On Startup` launches it. Read the word with the gap, tap the syllable that
